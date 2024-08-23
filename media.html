@@ -4,75 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Empowering Through Technology</title>
-    <style>
-      body {
-        font-family: "Mukta", sans-serif;
-        margin: 0;
-        padding: 0;
-        background-color: #f4f4f4;
-        color: #333;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        padding: 20px;
-        line-height: 1.6;
-      }
-
-      h1 {
-        font-size: 2.5rem;
-        color: #007bff;
-        margin-bottom: 20px;
-      }
-
-      h3 {
-        font-size: 2rem;
-        color: #444;
-        margin-top: 30px;
-        margin-bottom: 20px;
-      }
-
-      p {
-        font-size: 1.2rem;
-        max-width: 800px;
-        margin-bottom: 30px;
-      }
-
-      .image-container,
-      .video-container {
-        width: 100%;
-        max-width: 800px;
-        margin-bottom: 20px;
-        border-radius: 10px;
-        overflow: hidden;
-        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-      }
-
-      img,
-      video {
-        width: 100%;
-        height: auto;
-        display: block;
-      }
-
-      audio {
-        margin-top: 20px;
-        width: 100%;
-        max-width: 600px;
-        outline: none;
-      }
-    </style>
+    <link rel="stylesheet" href="media.css">
   </head>
   <body>
     <h1>Empowering Through Technology</h1>
 
     <div class="image-container">
       <picture>
-        <source media="(min-width: 1200px)" srcset="large-desktop.jpg" />
-        <source media="(min-width: 768px)" srcset="tablet.jpg" />
-        <source media="(min-width: 480px)" srcset="mobile.jpg" />
-        <img src="fallback.jpg" alt="Empowering Through Technology" />
+        <source media="(min-width: 1200px)" srcset="./image/large-desktop.jpg" />
+        <source media="(min-width: 768px)" srcset="./image/tablet.jpg" />
+        <source media="(min-width: 480px)" srcset="./image/mobile.jpg" />
+        <img src="./image/fallback.jpg" alt="./image/Empowering Through Technology" />
       </picture>
     </div>
 
@@ -84,7 +26,7 @@
 
     <div class="video-container">
       <video controls>
-        <source src="inspiration.mp4" type="video/mp4" />
+        <source src="./video/inspiration.mp4" type="video/mp4" />
 
         Your browser does not support the video tag.
       </video>
@@ -93,8 +35,8 @@
     <p>Watch the video!!!!</p>
 
     <audio controls>
-      <source src="Challenge To Life _ Napoleon Hill.mp3" type="audio/mp3" />
-      <source src="Challenge To Life _ Napoleon Hill.ogg" type="audio/ogg" />
+      <source src="./audio/Challenge To Life _ Napoleon Hill.mp3" type="audio/mp3" />
+      <source src="./audio/ To Life _ Napoleon Hill.ogg" type="audio/ogg" />
     </audio>
 
     <p>Listen to Challenge to Life by Napoleon Hill</p>
